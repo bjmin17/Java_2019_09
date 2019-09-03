@@ -1,0 +1,12 @@
+package com.biz.classes.book;
+
+public class BookMain {
+
+	public static void main(String[] args) {
+
+		Book book_01 = new Book();
+		Book book_02 = new Book();
+		Book book_03 = new Book();
+	}
+
+}

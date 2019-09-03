@@ -1,0 +1,9 @@
+package com.biz.arrays;
+
+public class ScoreVO {
+
+	String strNum;
+	int intKor;
+	int intEng;
+	int intMath;
+}

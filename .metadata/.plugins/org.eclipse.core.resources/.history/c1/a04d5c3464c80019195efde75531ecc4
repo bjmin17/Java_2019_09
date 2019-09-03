@@ -1,0 +1,13 @@
+package com.biz.for_if;
+
+public class If_01 {
+
+	public static void main(String[] args) {
+
+		// for(처음한번 ; 조건 ; 증가) { 명령문들....}
+		if(3==3) System.out.println("3은 3이다!!");
+		if(3 > 3) System.out.println("3이 3보다 크다!!");
+		if(3 != 3) System.out.println("3은 3이 아니다!!!");
+	}
+
+}

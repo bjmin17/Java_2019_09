@@ -1,0 +1,27 @@
+package com.biz.arrays.service;
+
+import com.biz.arrays.model.MemberVO;
+
+public class MemberService {
+
+	private MemberVO[] mVO;
+	
+	// 아래 메서드를 클래스의 생성자 method라고 함.
+	// return type 키워드가 없는 method
+	// method의 이름이 클래스 이름과 같다.
+	// 클래스를 객체로 생성(선언 + 초기화)할 때
+	// 자동으로 호출되어 실행되는 method
+	
+	public MemberService() {
+		
+		mVO = new MemberVO[10];
+		for(int i = 0 ; i < mVO.length ; i++) {
+			mVO[i].strName = String.format("KO%03d", i);
+		}
+	}
+	
+	public MemberVO[] getMemberVO() {		// return 타입이 MemberVO형
+		return mVO;
+	}
+	
+}

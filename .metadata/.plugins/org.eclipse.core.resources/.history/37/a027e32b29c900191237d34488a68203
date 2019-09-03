@@ -1,0 +1,19 @@
+package com.biz.classes;
+
+public class String_01 {
+
+	public static void main(String[] args) {
+
+		String strNation = new String();
+		strNation = "Republic of Korea";
+		System.out.println(strNation.substring(4));
+		
+		int intLength = strNation.length();
+		
+		for(int i = 0; i < intLength; i++) {
+			char cA = strNation.charAt(i);
+			System.out.println((i+1 + "번째 글자 : " + cA);
+		}
+	}
+
+}

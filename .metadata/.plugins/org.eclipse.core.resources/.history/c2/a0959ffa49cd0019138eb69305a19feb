@@ -1,0 +1,14 @@
+package com.biz.arrays.service;
+
+import com.biz.arrays.model.MemberVO;
+
+public class MemberService {
+
+	private MemberVO[] mVO;
+	
+	public MemberService() {
+		
+		mVO = new MemberVO[10];
+	}
+	
+}

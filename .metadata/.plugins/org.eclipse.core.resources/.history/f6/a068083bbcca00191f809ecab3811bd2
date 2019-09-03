@@ -1,0 +1,9 @@
+package com.biz.classes.model;
+
+/*
+ *  사용자 정의형 클래스
+ *  필요에 따라서 사용자(개발자)
+ */
+public class StudentVO {
+
+}

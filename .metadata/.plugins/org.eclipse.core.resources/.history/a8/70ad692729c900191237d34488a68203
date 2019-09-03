@@ -1,0 +1,15 @@
+package com.biz.classes;
+
+public class String_01 {
+
+	public static void main(String[] args) {
+
+		String strNation = new String();
+		strNation = "Republic of Korea";
+		System.out.println(strNation.substring(4));
+		
+		int intLength = strNation.length();
+		
+	}
+
+}

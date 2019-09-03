@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.biz.classes.user.User_01"/>
+<fullyQualifiedTypeName name="com.biz.classes.grade.StaticGrade"/>
+<fullyQualifiedTypeName name="com.biz.classes.grade.GradeNew"/>
+<fullyQualifiedTypeName name="com.biz.classes.student.Student"/>
+<fullyQualifiedTypeName name="com.biz.classes.student.StudentVO"/>
+<fullyQualifiedTypeName name="com.biz.model.AddressVO"/>
+<fullyQualifiedTypeName name="com.biz.classes.model.StudentVO"/>
+<fullyQualifiedTypeName name="com.biz.classes.model.GradeScoreVO"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.biz.arrays.model.MemberVO"/>
+<fullyQualifiedTypeName name="com.biz.arrays.exec.MemberEx_01"/>
+<fullyQualifiedTypeName name="com.biz.arrays.service.MethodService"/>
+</qualifiedTypeNameHistroy>

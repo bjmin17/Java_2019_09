@@ -1,0 +1,5 @@
+package com.biz.model;
+
+public class BookVO {
+
+}

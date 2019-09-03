@@ -1,0 +1,14 @@
+package com.biz.arrays.exec;
+
+import com.biz.arrays.model.MemberVO;
+
+public class MethodEx_02 {
+
+	public static void main(String[] args) {
+		
+		MemberVO mVO = new MemberVO();
+		mVO.strName = "홍길동";
+		mVO.strTel = "010-1111-1234";
+
+	}
+}

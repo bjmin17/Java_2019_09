@@ -1,0 +1,28 @@
+package com.biz.classes;
+
+public class String_03 {
+
+	public static void main(String[] args) {
+
+		String strNation = "Republic of Korea";
+		
+		// 문자열의 길이(개수)를 확인해서
+		// 변수 intLength 저장
+		
+		int intLength = strNation.length();
+		char cSearch = 'u';
+		int index = 0;
+
+		for(int i = 0; i < intLength ; i++) {
+			char cA = strNation.charAt(index);
+			if(cA == cSearch)
+				System.out.println(index + "번 위치에 있음");
+			
+		}
+		
+	
+
+
+	}
+
+}

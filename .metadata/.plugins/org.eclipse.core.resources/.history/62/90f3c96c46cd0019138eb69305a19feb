@@ -1,0 +1,19 @@
+package com.biz.arrays.exec;
+
+import com.biz.arrays.service.MethodService;
+
+/*
+ * 1. main() method에서 MethodService 클래스를 ms 객체로 선언하고
+ * 2. 다음 코드를 실행하여 30*40의 결과가 console에 나타나도록 코드를 완성하시오.
+ * int retNum = ms.getSum(30,40);
+ */
+public class MethodEx_04 {
+
+	public static void main(String[] args) {
+		MethodService ms = new MethodService();
+		int retNum = ms.getSum(60, 40);
+		System.out.println(retNum);
+		
+		
+	}
+}

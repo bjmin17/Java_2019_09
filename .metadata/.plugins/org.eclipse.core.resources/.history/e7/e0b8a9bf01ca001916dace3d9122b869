@@ -1,0 +1,13 @@
+package com.biz.classes.student;
+
+public class Student {
+
+	public String strClass;
+	public String strName;
+	public int RegYear;
+	public String Major;
+	public int Year;
+	
+	Year = 2019 - RegYaer;
+
+}

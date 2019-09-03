@@ -1,0 +1,26 @@
+package com.biz.classes;
+
+public class ClassEx_01 {
+
+	public static void main(String[] args) {
+		
+		// 변수의 형을 지정하는 key word 라고 한다.
+		// 첫글자가 소문자로 시작하는 key word
+		// primitive(기본형) 변수
+		int intNum1 = 0; // 변수를 선언하고 초기화 한다.
+		long longNum1 = 0L;
+		float floatNum1 = 3.0f;
+		double doubleNum1 = 3.0;
+		
+		char cA = 'A';
+		boolean bYes = true; // 직접 true 지정해주거나
+		boolean bNo = 3 != 3; // 식으로 지정해주거나
+		
+		// type 형
+		// reference(참조형) 변수
+		String strName = "대한민국";
+		
+		
+	}
+
+}

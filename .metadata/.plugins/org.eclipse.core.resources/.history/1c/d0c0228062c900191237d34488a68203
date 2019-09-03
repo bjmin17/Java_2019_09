@@ -1,0 +1,24 @@
+package com.biz.classes;
+
+public class Class_01 {
+
+	/*
+	 * 나는 Class_01 이름을 가진 클래스(class) 입니다.
+	 * 나는 3개의 method를 가지고 있습니다
+	 */
+	public void method_01() {
+		System.out.println("나는 method_01 입니다");
+	}
+
+	public void method_02() {
+		System.out.println("나는 method_02 입니다");
+		System.out.println("Class 01의 두번째 메서드 입니다");
+	}
+
+	public void method_03() {
+		System.out.println("나는 method_03 입니다");
+		System.out.println("우리나라 만세");
+		System.out.println("대한민국 만세");
+	}
+
+}

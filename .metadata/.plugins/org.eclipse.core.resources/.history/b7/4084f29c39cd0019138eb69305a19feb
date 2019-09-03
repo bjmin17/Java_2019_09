@@ -1,0 +1,18 @@
+package com.biz.arrays.exec;
+
+import com.biz.arrays.service.MethodService;
+
+public class MethodEx_01 {
+
+	public static void main(String[] args) {
+		
+		// MethodSerivce 클래스에 정의된
+		// method()를 호출하기 위해서
+		// ms라는 객체를 선언하고, 초기화(생성)한다.
+		//					생성자 메서드
+		//					  객체를 초기화, 생성하는데
+		//					  사용되는 method
+		MethodService ms = new MethodService(); // ms까지가 선언문, 뒷부분이 초기화 부분,
+		
+	}
+}

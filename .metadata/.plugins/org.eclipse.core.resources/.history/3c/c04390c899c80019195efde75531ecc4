@@ -1,0 +1,15 @@
+package com.biz.keyinput;
+
+import java.util.Scanner;
+
+public class KeyInput_04 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("이름>>");
+		String strName = scanner.nextLine();
+				
+	}
+}

@@ -1,0 +1,16 @@
+package com.biz.classes;
+
+public class ClassEx_01 {
+
+	public static void main(String[] args) {
+		
+		// 변수의 형을 지정하는 key word 라고 한다.
+		int intNum1 = 0; // 변수를 선언하고 초기화 한다.
+		long longNum1 = 0L;
+		float floatNum1 = 3.0f;
+		double doubleNum1 = 3.0;
+		
+		
+	}
+
+}

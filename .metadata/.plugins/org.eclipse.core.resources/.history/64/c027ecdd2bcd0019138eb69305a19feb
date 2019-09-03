@@ -1,0 +1,16 @@
+package com.biz.arrays.exec;
+
+import com.biz.arrays.model.ScoreVO;
+
+public class ScoreEx_02 {
+
+	public static void main(String[] args) {
+
+		ScoreVO sVO = new ScoreVO();
+		
+		// method의 단순 호출
+		sVO.add();
+		sVO.add_ret();
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.biz.arrays.model;
+
+public class MemberVO {
+
+	public String strName;
+	public String strTel;
+	
+	public int intAge;
+	
+}

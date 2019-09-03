@@ -1,0 +1,49 @@
+package com.biz.classes.student;
+
+/*
+ * 1. '학생' 정보를 알려주는 student클래스를 생성
+ * 2. 학번, 이름, 입학년도, 전공, 학년 순으로
+ * 3. 기능을 추가하시오.
+ * 		가. 학생 개인의 정보를 보기
+ * 		나. 학생 리스트 보기
+ */
+
+/*
+ * main() 메서드가 없는 class
+ * 정보처리(data 처리)를 하기 위해서
+ */
+public class Student {
+
+	public String strStudentId;
+	public String strName;
+	public int admissionYear;
+	public String strMajor;
+	public int intGrade;
+	
+	
+	
+	public void StudentInformation() {
+		intGrade = 2019 - admissionYear;
+		System.out.println("-----------------------------------------------");
+		System.out.println("학번 : " + strStudentId);
+		System.out.println("이름 : " + strName);
+		System.out.println("입학년도 : " + admissionYear);
+		System.out.println("전공 : " + strMajor);
+		System.out.println("학년 : " + intGrade);
+		System.out.println("-----------------------------------------------");
+		}
+	
+	
+	
+	public void StudentList() {
+		
+		System.out.printf("%s\t%s\t%d\t\t%s\t%d\n",
+				strStudentId,
+				strName,
+				admissionYear,
+				strMajor,
+				intGrade);
+		
+	}
+
+}

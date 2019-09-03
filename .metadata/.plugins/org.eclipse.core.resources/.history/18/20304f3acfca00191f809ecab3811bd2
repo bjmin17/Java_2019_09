@@ -1,0 +1,14 @@
+package com.biz.classes.model;
+
+/*
+ * 학생의 성적처리에 사용할 VO 클래스 디자인
+ * prototype (코드) 작성
+ * 객체를 생성하는 근본 코드
+ * 
+ * 학번, 국어점수, 영어점수, 수학점수
+ * 총점, 평균
+ */
+public class GradeScoreVO {
+
+	
+}

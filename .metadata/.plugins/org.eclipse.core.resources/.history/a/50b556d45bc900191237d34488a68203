@@ -1,0 +1,39 @@
+package com.biz.classes.search;
+
+import java.util.Scanner;
+
+public class SearchSub {
+
+	/*
+	 * 임의의 문자열 중에 
+	 * 포함된 1개의 문자열을 찾는 클래스
+	 * 
+	 * 1. 임의 문자열을 제시하고
+	 * 2. 키보드에서 1개의 문자열을 입력받고
+	 * 3. 해당하는 문자열이 몇 번째 위치에 있나?
+	 */
+	public void main() { //static과 main 괄호 안을 삭제
+		
+		String strNation = "Republic of Korea";
+		Scanner scanner = new Scanner(System.in);
+		int intLength = strNation.length();
+		
+		//문자열 제시
+		System.out.println(strNation);
+		System.out.println("1개의 문자열을 입력하세요");
+		System.out.print("문자 >> ");
+		
+		String strS = scanner.nextLine();
+		
+		int index = 0;
+		for(index = 0 ; index < intLength ;indexi++) {
+			String strAt = strNation.substring(index, index+1);
+			if (strAt.equalsIgnoreCase(strS)) 
+				System.out.println((index+1) + "번째 에서 찾음");
+			else 
+				System.out.println("없음");
+			break;
+			
+		}
+	}
+}

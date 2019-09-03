@@ -1,0 +1,21 @@
+package com.biz.classes.grade;
+
+/*
+ * dynamic class 이다. 라고 정의를 하는데
+ * dynamic 이라는 의미로 해석하면
+ * 어려움이 있다.
+ * static이 아닌 class 이다. 라고 이해를 하자.
+ * 
+ */
+
+public class GradeNew {
+	
+	// 멤버변수 들
+	String strNum;
+	String strName;
+	int intKor;
+	int intEng;
+	int intMath;
+
+
+}

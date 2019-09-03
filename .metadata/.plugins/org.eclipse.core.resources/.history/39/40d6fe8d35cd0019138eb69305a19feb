@@ -1,0 +1,18 @@
+package com.biz.arrays.service;
+
+public class MethodService {
+
+	public void consoleView() {
+		
+	}
+	
+	public int numRet() {
+		return 0;
+	}
+	
+	public String strRet() {
+		return "";
+	}
+	
+	
+}

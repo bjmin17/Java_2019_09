@@ -1,0 +1,17 @@
+package com.biz.classes.arrays;
+
+public class Array_02 {
+
+	/*
+	 * 10개의 정수형 배열을 만들고
+	 * 1부터 10까지 임의의 숫자를 저장한 후
+	 * 임의의 숫자 1개를 지정하여
+	 * 배열에 몇 번째에 있는지 찾기
+	 */
+	public static void main(String[] args) {
+
+		int[] nums = new int[10];
+		
+	}
+
+}

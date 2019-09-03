@@ -1,0 +1,10 @@
+package com.biz.classes.service;
+
+public class ArrayScanService {
+
+	private int[] nums ;
+	
+	public ArrayScanService(int length) {
+		
+	}
+}

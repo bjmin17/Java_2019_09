@@ -1,0 +1,21 @@
+package com.biz.classes;
+
+public class String2Number_01 {
+
+	public static void main(String[] args) {
+
+		String strNum1 = "30";
+		String strNum2 = 40 + "";
+		
+		String strNum3 = "30.0";
+		String strNum4 = "30.123";
+		
+		System.out.println(strNum1 + strNum2); // 3040
+		System.out.println(strNum3 + strNum4); // 30.
+		System.out.println(strNum1 + strNum2);
+		System.out.println(strNum1 + strNum2);
+		
+		
+	}
+
+}

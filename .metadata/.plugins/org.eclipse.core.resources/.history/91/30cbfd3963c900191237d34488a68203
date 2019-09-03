@@ -1,0 +1,14 @@
+package com.biz.classes;
+
+public class Object_01 {
+
+	public static void main(String[] args) {
+		
+		// 클래스를 객체로 선언, 생성, 초기화
+		// 객체(class_01)의 이름은
+		// 일반적으로 클래스 이름의 첫글자를 소문자로 하여
+		
+		Class_01 class_01 = new Class_01();
+		
+	}
+}

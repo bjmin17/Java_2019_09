@@ -1,0 +1,20 @@
+package com.biz.classes;
+
+import com.biz.classes.model.GradeScoreVO;
+
+public class GSEx_01 {
+
+	public static void main(String[] args) {
+
+		GradeScoreVO[] gsVO = new GradeScoreVO[10];
+		for(int i = 0 ; i = gsVO.length ; i ++) {
+			gsVO[i] = new GradeScoreVO();
+		}
+		
+		gsVO[0].strNum = "001";
+		gsVO[0].intKor = 11;
+		gsVO[0].intEng = 22;
+		gsVO[0].intMath = 33;
+	}
+
+}

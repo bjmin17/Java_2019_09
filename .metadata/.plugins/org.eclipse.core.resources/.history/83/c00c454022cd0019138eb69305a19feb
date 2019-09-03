@@ -1,0 +1,23 @@
+package com.biz.arrays;
+
+import java.util.Random;
+
+public class Array_03 {
+/*
+ * 배열 요소의 정렬, 41526을 12456 이면 오름차순,ASC(낮은 수에서 높은 수)
+ * 65421이면 내림차순, DESC(높은 수에서 낮은 수),,,,,정렬 알고리즘, 서치 알고리즘
+ * 쉽게는 주로 버블정렬, insert정렬, select정렬 3가지
+ */
+	public static void main(String[] args) {
+
+		int[] nums = new int[10];
+		Random rnd = new Random();
+		
+		for(int i = 0; i < nums.length ; i++) {
+			nums[i] = rnd.nextInt(100) + 1;
+		}
+			
+		
+	}
+
+}

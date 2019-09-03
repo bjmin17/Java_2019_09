@@ -1,0 +1,21 @@
+package com.biz.arrays.exec;
+
+import com.biz.arrays.model.ScoreVO;
+
+public class ScoreEx_02 {
+
+	public static void main(String[] args) {
+
+		ScoreVO sVO = new ScoreVO();
+		
+		// method의 단순 호출
+		// 호출은 하되 수행 결과는 확인하지 않는다.
+		sVO.add();
+		sVO.add_ret();
+		
+		// return 문이 있는 method의 호출
+		// 호출을 하고 결과를 확인한다.
+		
+	}
+
+}

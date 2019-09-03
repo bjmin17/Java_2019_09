@@ -1,0 +1,22 @@
+package com.biz.arrays.service;
+
+import com.biz.arrays.model.MemberVO;
+
+public class MemberService {
+
+	private MemberVO[] mVO;
+	
+	// return type 키워드가 없는 method
+	public MemberService() {
+		
+		mVO = new MemberVO[10];
+		for(int i = 0 ; i < mVO.length ; i++) {
+			mVO[i].strName = String.format("KO%03d", i);
+		}
+	}
+	
+	public MemberVO[] getMemberVO() {		// return 타입이 MemberVO형
+		return mVO;
+	}
+	
+}

@@ -1,0 +1,13 @@
+package com.biz.for_if;
+
+public class If_05 {
+
+	public static void main(String[] args) {
+
+		int num = 33;
+		
+		// num 변수에 담긴 값이 3의 배수이냐?
+		if(num % 3 == 0)
+	}
+
+}

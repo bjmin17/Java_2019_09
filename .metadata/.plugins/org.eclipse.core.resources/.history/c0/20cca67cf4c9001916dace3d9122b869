@@ -1,0 +1,21 @@
+package com.biz.classes;
+
+import com.biz.classes.grade.GradeNew;
+import com.biz.classes.grade.StaticGrade;
+
+public class StartMain {
+
+	public static void main(String[] args) {
+
+		StaticGrade.strNum = "001";
+		StaticGrade.strName = "홍길동";
+		
+		StaticGrade.intKor = 90;
+		StaticGrade.intEng = 88;
+		StaticGrade.intMath = 77;
+
+		GradeNew gradeNew = new GradeNew(); // Non static 변수들은 생성자로 만들어줘야 한다.
+		// import오류나면 ctrl shift o 눌러서 import문을 작성해야 한다.
+	}
+
+}

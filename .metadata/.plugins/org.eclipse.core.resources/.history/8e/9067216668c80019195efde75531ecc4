@@ -1,0 +1,19 @@
+package com.biz.for_if;
+
+public class If_03 {
+
+	public static void main(String[] args) {
+
+		int num = 32;
+
+		if (num % 2 == 0)
+			System.out.println(num + "는 짝수"); 32는 짝수
+
+		if (num % 2 != 0) {
+			System.out.println(num + "는 홀수");
+		}
+			
+
+	}
+
+}

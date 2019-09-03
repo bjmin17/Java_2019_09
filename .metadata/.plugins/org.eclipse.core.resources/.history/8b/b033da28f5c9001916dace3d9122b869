@@ -1,0 +1,38 @@
+package com.biz.classes;
+
+import com.biz.classes.grade.GradeNew;
+import com.biz.classes.grade.StaticGrade;
+
+public class StartMain {
+
+	public static void main(String[] args) {
+
+		/*
+		 * static class는
+		 * 선언, 생성, 초기화 과정을 코딩하지 않고
+		 * 직접 클래스.~~~ 방식으로 접근할 수 있다.
+		 */
+		StaticGrade.strNum = "001";
+		StaticGrade.strName = "홍길동";
+		
+		StaticGrade.intKor = 90;
+		StaticGrade.intEng = 88;
+		StaticGrade.intMath = 77;
+
+		/*
+		 * non static class는
+		 * 반드시 접근(읽기, 쓰기)전에
+		 * 대리자를 선언, 생성, 초기화 과정을 코딩해야 한다.
+		 * 대리자 : 객체, Object, instance 라고 한다.
+		 */
+		GradeNew gradeNew = new GradeNew(); // Non static 변수들은 대리자를 만들고 생성자로 만들어줘야 한다.
+		gradeNew.strNum = "002"; // import오류나면 ctrl shift o 눌러서 import문을 작성해야 한다.
+		gradeNew.strName = "성춘향";
+		
+		gradeNew.intKor = 99;
+		gradeNew.intEng = 99;
+		gradeNew.intMath = 99;
+		
+	}
+
+}

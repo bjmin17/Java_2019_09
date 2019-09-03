@@ -1,0 +1,29 @@
+package com.biz.for_if;
+
+public class Boolean_01 {
+
+	public static void main(String[] args) {
+
+		// java에서 기본적으로 제공하는 변수 형
+		// primitive
+		// 변수 형(type)
+		int intNum = 0; // 4byte 크기의 값을 저장하는 정수
+		long longNum = 0L; // 8byte 크기의 값을 저장하는 정수
+		
+		float floatNum = 0.0f; // 정밀도가 일반형인 실수
+		double doubleNum = 0.0; // 배 정밀도의 갖는 실수
+		
+		boolean bYes = true; // true, false만을 갖는 변수
+		boolean bNo = false; // 
+		
+		bYes = 3 == 3; // 우측에 있는 3 == 3 연산식이 참이냐?
+		bNo = 3 > 3; // 우측에 있는 3 > 3 연산식이 참이냐?
+		
+		char cA = 'A'; // 한개의 문자를 저장, 1byte, 2byte(한글)
+		
+		
+	
+	
+	}
+
+}

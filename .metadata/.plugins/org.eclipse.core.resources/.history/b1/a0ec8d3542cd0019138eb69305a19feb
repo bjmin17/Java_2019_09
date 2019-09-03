@@ -1,0 +1,14 @@
+package com.biz.arrays.exec;
+
+import com.biz.arrays.service.MethodProtoType;
+
+public class Method_03 {
+
+	public static void main(String[] args) {
+		
+		MethodProtoType mt = new MethodProtoType();
+		
+		mt.view();
+		
+	}
+}

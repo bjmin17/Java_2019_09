@@ -1,0 +1,14 @@
+package com.biz.arrays;
+
+public class ScoreVO {
+
+	public String strNum; // 학번
+	public int intKor; // 국어점수
+	public int intEng; // 영어점수
+	public int intMath; // 수학점수
+	
+	private int intSum; // 총점
+	private int intAvg; // 평균
+	private int intRank; // 석차
+	
+}

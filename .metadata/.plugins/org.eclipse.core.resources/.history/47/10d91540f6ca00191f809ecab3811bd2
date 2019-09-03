@@ -1,0 +1,27 @@
+package com.biz.classes.arrays;
+
+import java.util.Random;
+
+public class Lottos {
+
+	public static void main(String[] args) {
+		
+		Random rnd = new Random();
+		int[] lottos = new int[6];
+		
+		int nLottoIndex = 0;
+		while(true) {
+			
+			int lotNum = rnd.nextInt();
+			int index;
+			for(index = 0; index < lottos.length ; index++) {
+				if(lottos[index] == lotNum) break;
+			}
+			if(index >= lottos.length)
+				lottos[nLottoIndex++] = lotNum;
+			
+			
+			
+		}
+	}
+}

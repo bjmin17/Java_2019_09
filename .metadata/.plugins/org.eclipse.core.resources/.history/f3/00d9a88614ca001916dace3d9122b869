@@ -1,0 +1,23 @@
+package com.biz.classes.book;
+
+public class BookMain {
+
+	public static void main(String[] args) {
+
+		Book book01 = new Book();
+		Book book02 = new Book();
+		Book book03 = new Book();
+		
+		book01.strBookName = "자바프로그래밍 입문";
+		book01.strCo = "이지스퍼블리밍";
+		book01.strWriter = "박은종";
+		book01.price = 25000;
+		
+		System.out.println("===========================================");
+		book01.bookinfo();
+		
+		book01.booklist();
+				
+	}
+
+}

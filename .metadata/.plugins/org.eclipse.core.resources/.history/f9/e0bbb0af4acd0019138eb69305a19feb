@@ -1,0 +1,16 @@
+package com.biz.arrays.exec;
+
+import com.biz.arrays.service.MemberService;
+
+public class MemberEx_01 {
+
+	public static void main(String[] args) {
+		
+		// ms 객체를 생성하는 코드가 실행되면
+		// MemberService의 생성자 method가 호출되어
+		// 실행한다.
+		MemberService ms = new MemberService();
+		
+				
+	}
+}

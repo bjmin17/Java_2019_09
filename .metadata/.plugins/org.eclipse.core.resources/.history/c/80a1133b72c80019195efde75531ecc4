@@ -1,0 +1,14 @@
+package com.biz.for_if;
+
+public class If_07 {
+
+	public static void main(String[] args) {
+
+		int num = 56;
+		
+		// && : AND 좌우 조건이 모두 true일 때만 결과가 true
+		if(num % 3 == 0 && num % 6 == 0)
+			
+	}
+
+}

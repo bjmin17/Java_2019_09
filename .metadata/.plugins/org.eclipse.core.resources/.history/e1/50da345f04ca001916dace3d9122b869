@@ -1,0 +1,14 @@
+package com.biz.classes.student;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+
+		Student student01 = new Student();
+		Student student02 = new Student();
+		Student student03 = new Student();
+		
+		
+	}
+
+}

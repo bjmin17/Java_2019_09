@@ -1,0 +1,30 @@
+package com.biz.classes.search;
+
+import java.util.Scanner;
+
+public class SearchMain {
+
+	/*
+	 * 임의의 문자열 중에 
+	 * 포함된 1개의 문자열을 찾는 클래스
+	 * 
+	 * 1. 임의 문자열을 제시하고
+	 * 2. 키보드에서 1개의 문자열을 입력받고
+	 * 3. 해당하는 문자열이 몇 번째 위치에 있나?
+	 */
+	public static void main(String[] args) {
+
+		SearchSub ss = new SearchSub();
+		
+		/*
+		 * 무한 반복으로 계속해서 진행되는 코드인데
+		 * 필요할 때 종료할 수 있는 코드를 작성
+		 */
+		for(;;) {
+			ss.main();	
+		}
+		
+		
+		
+	}
+}

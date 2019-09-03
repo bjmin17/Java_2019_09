@@ -1,0 +1,14 @@
+package com.biz.arrays.model;
+
+public class MemberVO {
+
+	public String strName;
+	public String strTel;
+	
+	/*
+	 * MemberVO의 멤버 변수 중 intAge는
+	 * 나이를 보관하는 변수이다.
+	 */
+	public int intAge;
+	
+}

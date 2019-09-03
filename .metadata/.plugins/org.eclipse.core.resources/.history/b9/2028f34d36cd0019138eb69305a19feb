@@ -1,0 +1,23 @@
+package com.biz.arrays.service;
+
+public class MethodService {
+
+	private int intSum;
+	
+	public void consoleView() {
+		
+	}
+	
+	public int numRet() {
+		return 0;
+	}
+	
+	public String strRet() {
+		return "";
+	}
+	
+	public int getIntSum() {
+		return intSum;
+	}
+	
+}

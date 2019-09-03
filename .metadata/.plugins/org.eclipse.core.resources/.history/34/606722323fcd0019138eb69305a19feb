@@ -1,0 +1,30 @@
+package com.biz.arrays.model;
+
+public class MemberVO {
+
+	public String strName;
+	public String strTel;
+	
+	/*
+	 * MemberVO의 멤버 변수 중 intAge는
+	 * 나이를 보관하는 변수이다.
+	 * 만약 실수로 데이터를 저장(보관)할 때
+	 * 실제 나이 범위를 벗어나게 저장하면
+	 * 나중에 연산을 수행할 때
+	 * 문제를 일으킬 수도 있다.
+	 * 이럴때
+	 * 멤버변수를 private으로 선언하고
+	 * 값을 저장할 때 method를 통해서 저장하는 방법이 있다.
+	 */
+	private int intAge;
+
+	// 외부에서 intAge 값을 읽을 때 사용할 method
+	public int getIntAge() {
+		return intAge;
+	}
+	
+	// 외부에서 intAge 변수에 값을 저장(할당)할 때 사용할 method
+	public void setIntAge(int intAge) {
+		this.intAge = intAge;
+	}
+}

@@ -1,0 +1,20 @@
+package com.biz.classes.arrays;
+
+import com.biz.classes.service.ArrayScanService;
+
+public class Array_06 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		ArrayScanService aService = new ArrayScanService(10);
+
+		
+		while(true) {
+			aService.scanArrayAll();
+			System.out.println("Press Any Key...(END : quit)");
+		}
+		aService.scanArrayAll();
+		
+	}
+}

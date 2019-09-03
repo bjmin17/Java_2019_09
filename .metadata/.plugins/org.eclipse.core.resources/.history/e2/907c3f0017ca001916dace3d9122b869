@@ -1,0 +1,10 @@
+package com.biz.model;
+/*
+ * ~~VO 클래스
+ * Value Object 클래스
+ * 		정보처리를 할 때 기본적인 데이터(멤버변수)의 묶음을
+ * 		처리할 때 사용하는 클래스
+ */
+public class BookVO {
+
+}

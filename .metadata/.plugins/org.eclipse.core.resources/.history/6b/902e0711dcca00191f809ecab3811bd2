@@ -1,0 +1,12 @@
+package com.biz.classes;
+
+import com.biz.classes.model.GradeScoreVO;
+
+public class GSEx_02 {
+
+	public static void main(String[] args) {
+		GradeScoreVO[] gsVo = new GradeScoreVO[10];
+		
+		
+	}
+}

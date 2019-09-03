@@ -1,0 +1,23 @@
+package com.biz.string;
+
+public class String_02 {
+
+	public static void main(String[] args) {
+
+		String strNation = "Republic of Korea";
+		// 문자열의 개수를 intLength에 담기
+		
+		// strNation 변수에 어떤 문자열이 담기든 관계없이
+		// 아래 코드를 실행할 때 
+		// 코드의 변화 없이 실행을 보장하기 위해서
+		// 코드를 사용하여 문자열의 개수를 센다.
+		int intLength = strNation.length();
+		
+		for(int i = 0 ; i < intLength ; i++) {
+
+		}
+		
+		
+	}
+
+}
