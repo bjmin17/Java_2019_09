@@ -19,12 +19,15 @@ public class Array_04 {
 			intNum[i] = rnd.nextInt(100) + 1 ;
 		}
 		
+		int num = 0 ;
+		System.out.println("소수 리스트");
 		for(int i = 0 ; i < intNum.length ; i++) {
-			
-			if(intNum[i] % intNum[i] == 0)
-				System.out.println(intNum[i]);
+			for(num = 2; num < intNum[i] ; num++) {
+				if(intNum[i] % num == 0) break;
+			}
+			if ( num >= intNum[i])
+				if(intNum[i] > 1 )
+					System.out.print(intNum[i] + " ");
 		}
-			
 	}
-
 }

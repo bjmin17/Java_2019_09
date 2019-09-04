@@ -11,9 +11,10 @@
 <fullyQualifiedTypeName name="com.biz.classes.model.StudentVO"/>
 <fullyQualifiedTypeName name="com.biz.classes.model.GradeScoreVO"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.biz.arrays.model.MemberVO"/>
 <fullyQualifiedTypeName name="com.biz.arrays.exec.MemberEx_01"/>
 <fullyQualifiedTypeName name="com.biz.arrays.service.MethodService"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.biz.grade.service.GradeServiceV2"/>
 </qualifiedTypeNameHistroy>
