@@ -1,9 +1,0 @@
-package com.biz.classes.user;
-
-public class User_02 {
-
-	private void add() {
-		// TODO Auto-generated method stub
-
-	}
-}

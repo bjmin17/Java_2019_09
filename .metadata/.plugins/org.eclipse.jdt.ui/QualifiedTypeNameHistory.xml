@@ -10,11 +10,15 @@
 <fullyQualifiedTypeName name="com.biz.model.AddressVO"/>
 <fullyQualifiedTypeName name="com.biz.classes.model.StudentVO"/>
 <fullyQualifiedTypeName name="com.biz.classes.model.GradeScoreVO"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.biz.arrays.model.MemberVO"/>
 <fullyQualifiedTypeName name="com.biz.arrays.exec.MemberEx_01"/>
 <fullyQualifiedTypeName name="com.biz.arrays.service.MethodService"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.biz.grade.service.GradeServiceV2"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.biz.list.model.GradeVO"/>
+<fullyQualifiedTypeName name="com.biz.list.model.AddrVO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.biz.list.service.AddrServiceImp"/>
 </qualifiedTypeNameHistroy>

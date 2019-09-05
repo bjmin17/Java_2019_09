@@ -1,9 +1,0 @@
-package com.biz.classes;
-
-public class Class_01 {
-
-	public void method_01() {
-		System.out.println("나는 method_01 입니다");
-	}
-	
-}
