@@ -19,6 +19,8 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.biz.list.model.GradeVO"/>
 <fullyQualifiedTypeName name="com.biz.list.model.AddrVO"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.biz.list.service.AddrServiceImp"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.biz.list.service.IolistServiceImp"/>
 </qualifiedTypeNameHistroy>
