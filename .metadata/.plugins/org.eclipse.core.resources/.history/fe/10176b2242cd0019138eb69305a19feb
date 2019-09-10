@@ -1,9 +1,0 @@
-package com.biz.arrays.exec;
-
-public class Method_03 {
-
-	public static void main(String[] args) {
-		
-		MethodProtoType mt = new MethodProtoType();
-	}
-}

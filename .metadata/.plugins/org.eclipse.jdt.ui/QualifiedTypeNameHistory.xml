@@ -21,6 +21,19 @@
 <fullyQualifiedTypeName name="com.biz.list.model.AddrVO"/>
 <fullyQualifiedTypeName name="com.biz.list.service.AddrServiceImp"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.biz.list.service.IolistServiceImp"/>
+<fullyQualifiedTypeName name="com.biz.iolist.service.IolistServiceImpV2"/>
+<fullyQualifiedTypeName name="com.biz.iolist.model.IolistVO"/>
+<fullyQualifiedTypeName name="com.biz.iolist.model.GradeVO"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.biz.grade.GradeService"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="com.biz.grade.service.ScoreService"/>
+<fullyQualifiedTypeName name="com.biz.grade.model.GradeVO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

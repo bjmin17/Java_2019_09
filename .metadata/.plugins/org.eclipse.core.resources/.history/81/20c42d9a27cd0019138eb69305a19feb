@@ -1,9 +1,0 @@
-package com.biz.arrays.exec;
-
-public class ScoreEx_01 {
-
-	public static void main(String[] args) {
-		
-		ScoreVO[] sVO = new ScoreVO[20];
-	}
-}
