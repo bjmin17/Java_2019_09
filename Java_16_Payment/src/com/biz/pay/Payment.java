@@ -1,4 +1,4 @@
-package com.biz.string.exec;
+package com.biz.pay;
 
 /*
  * 화폐매수 계산

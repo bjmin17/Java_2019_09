@@ -33,7 +33,9 @@
 <fullyQualifiedTypeName name="java.sql.Array"/>
 <fullyQualifiedTypeName name="com.biz.grade.service.ScoreService"/>
 <fullyQualifiedTypeName name="com.biz.grade.model.GradeVO"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="com.biz.string.service.StringServiceImpV1"/>
+<fullyQualifiedTypeName name="com.biz.string.service.StudentServiceV1"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>
