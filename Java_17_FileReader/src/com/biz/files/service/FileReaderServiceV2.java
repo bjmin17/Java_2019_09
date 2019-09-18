@@ -30,7 +30,7 @@ public class FileReaderServiceV2 {
 		while(true) {
 			int al = fileReader.read(); // 또 한번 throw 누르면 IOException 나옴
 			
-			if(al < 0 ) break; //아래보다 이게 더 안정적인 코드, 
+			if(al < 0 ) break; //아래보다 이게 더 안정적인 코드
 			System.out.print((char)al);
 			
 		}
