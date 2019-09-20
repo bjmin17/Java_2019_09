@@ -25,6 +25,10 @@ public class FileWriter_02 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	
+		
 		
 	}
+	
+	
 }
