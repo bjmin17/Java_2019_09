@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.biz.classes.grade.StaticGrade"/>
-<fullyQualifiedTypeName name="com.biz.classes.grade.GradeNew"/>
-<fullyQualifiedTypeName name="com.biz.classes.student.Student"/>
-<fullyQualifiedTypeName name="com.biz.classes.student.StudentVO"/>
-<fullyQualifiedTypeName name="com.biz.model.AddressVO"/>
-<fullyQualifiedTypeName name="com.biz.classes.model.StudentVO"/>
-<fullyQualifiedTypeName name="com.biz.classes.model.GradeScoreVO"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.biz.arrays.model.MemberVO"/>
 <fullyQualifiedTypeName name="com.biz.arrays.exec.MemberEx_01"/>
 <fullyQualifiedTypeName name="com.biz.arrays.service.MethodService"/>
@@ -28,7 +20,6 @@
 <fullyQualifiedTypeName name="java.sql.Array"/>
 <fullyQualifiedTypeName name="com.biz.grade.service.ScoreService"/>
 <fullyQualifiedTypeName name="com.biz.grade.model.GradeVO"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="com.biz.string.service.StringServiceImpV1"/>
 <fullyQualifiedTypeName name="com.biz.string.service.StudentServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.pay.service.PayServiceV1"/>
@@ -56,8 +47,17 @@
 <fullyQualifiedTypeName name="com.biz.grade.ScoreEx_01"/>
 <fullyQualifiedTypeName name="com.biz.grade.service.ScoreServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.grade.util.LineMake"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.biz.files.service.GradeServiceV1"/>
+<fullyQualifiedTypeName name="com.biz.files.service.GradeService"/>
+<fullyQualifiedTypeName name="com.biz.files.service.GradeServiceV2"/>
+<fullyQualifiedTypeName name="com.biz.files.NameService"/>
+<fullyQualifiedTypeName name="com.biz.files.NameServiceV1"/>
+<fullyQualifiedTypeName name="com.biz.files.service.NameServiceV1"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 </qualifiedTypeNameHistroy>

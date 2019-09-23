@@ -79,7 +79,6 @@ public class GradeServiceV2 extends GradeServiceV1 {
 			// 파일에 기록하기
 			fileOut.printf("%s:%s:%s:%s\n", strNum, nameList.get(i), strTel, strBirth);
 			fileOut.flush();
-			
 		}
 		fileOut.close();
 	}
