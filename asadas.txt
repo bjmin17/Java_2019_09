@@ -1,0 +1,75 @@
+package com.biz.blackjack.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import com.biz.domain.BlackJackVO;
+
+public class BlackJackServiceImpV1 implements BlackJackService {
+
+	List<Integer> blist;
+	Random rnd;
+	int[] intNum;
+	
+	BlackJackVO dealer;
+	BlackJackVO player;
+	
+	public BlackJackServiceImpV1() {
+		blist = new ArrayList<Integer>();
+		rnd = new Random();
+		int[] intNum = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10};
+		dealer = new BlackJackVO();
+		player= new BlackJackVO();
+	}
+	
+	@Override
+	public void start() {
+
+		
+		
+		int intSum = 0;
+		for(int i = 0 ; i < 2 ; i++) {
+			int intRnd = rnd.nextInt(13) + 1;
+			intSum += intNum[intRnd];
+			
+			
+			dealer.setIntNum(intSum);
+			if(dealer.getIntNum() > 21) break;
+//			blist.set(dealer);
+			
+			intRnd = rnd.nextInt(13) + 1;
+			
+			player.setIntNum(intSum);
+			if(player.getIntNum() > 21) break;
+//			blist.set(index, player);
+		}
+		
+	}
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		if(dealer.getIntNum() < 16) { 
+			int intRnd = rnd.nextInt(13) + 1;
+			dealer.setIntNum(dealer.getIntNum() + intNum[intRnd]);
+		}
+		int intRnd = rnd.nextInt(13) + 1;
+		player.setIntNum(player.getIntNum() + intNum[intRnd]);
+	
+	}
+
+	@Override
+	public void compare() {
+		// TODO Auto-generated method stub
+		System.out.print("¸¶Áö¸· °ª ºñ±³ : " + dealer.getIntNum() + " : " + player.getIntNum());
+		if(dealer.getIntNum() > player.getIntNum()) { 
+			System.out.println("µô·¯ ½Â¸®");
+		} else if(dealer.getIntNum() < player.getIntNum()) {
+			System.out.println("ÇÃ·¹ÀÌ¾î ½Â¸®");
+		} else if(dealer.getIntNum() == player.getIntNum()) {
+			System.out.println("¹«½ÂºÎ");
+		}
+	}
+
+}
