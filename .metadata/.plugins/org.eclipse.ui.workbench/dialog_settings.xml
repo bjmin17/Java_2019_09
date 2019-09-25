@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="920"/>
-		<item key="DIALOG_Y_ORIGIN" value="117"/>
+		<item key="DIALOG_X_ORIGIN" value="-455"/>
+		<item key="DIALOG_Y_ORIGIN" value="-443"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item key="dialogHeight" value="-1"/>
@@ -22,5 +22,7 @@
 		<item key="uncategorizedFilter" value="true"/>
 	</section>
 	<section name="NewWizardAction">
+	</section>
+	<section name="ImportExportAction">
 	</section>
 </section>

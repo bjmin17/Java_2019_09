@@ -1,2 +1,1 @@
 INDEX VERSION 1.131+C:\bizwork\javaworks\.metadata\.plugins\org.eclipse.jdt.core
-1560914911.index
