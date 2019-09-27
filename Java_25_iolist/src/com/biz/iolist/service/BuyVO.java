@@ -22,12 +22,14 @@ public class BuyVO {
 	private String date;
 	private String proName;
 	private int price;
-	private double vat;
-	private double qty;
-	private double total;
+	private int vat;
+	private int qty;
+	private int total;
 	
 	
-	public BuyVO(String date, String proName, int price, double vat, double qty, double total) {
+	
+	
+	public BuyVO(String date, String proName, int price, int vat, int qty, int total) {
 		super();
 		this.date = date;
 		this.proName = proName;
@@ -58,22 +60,22 @@ public class BuyVO {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	public double getVat() {
+	public int getVat() {
 		return vat;
 	}
-	public void setVat(double vat) {
+	public void setVat(int vat) {
 		this.vat = vat;
 	}
-	public double getQty() {
+	public int getQty() {
 		return qty;
 	}
-	public void setQty(double qty) {
+	public void setQty(int qty) {
 		this.qty = qty;
 	}
-	public double getTotal() {
+	public int getTotal() {
 		return total;
 	}
-	public void setTotal(double total) {
+	public void setTotal(int total) {
 		this.total = total;
 	}
 	@Override
@@ -81,6 +83,8 @@ public class BuyVO {
 		return "BuyVO [date=" + date + ", proName=" + proName + ", price=" + price + ", vat=" + vat + ", qty=" + qty
 				+ ", total=" + total + "]";
 	}
+	
+	
 	
 	
 

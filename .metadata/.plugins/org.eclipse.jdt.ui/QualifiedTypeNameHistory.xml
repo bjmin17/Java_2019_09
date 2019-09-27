@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.sql.Array"/>
-<fullyQualifiedTypeName name="com.biz.grade.service.ScoreService"/>
-<fullyQualifiedTypeName name="com.biz.grade.model.GradeVO"/>
-<fullyQualifiedTypeName name="com.biz.string.service.StringServiceImpV1"/>
-<fullyQualifiedTypeName name="com.biz.string.service.StudentServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.pay.service.PayServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.pay.service.PayServiceV2"/>
 <fullyQualifiedTypeName name="com.biz.pay.service.PayServiceV5"/>
@@ -43,11 +38,8 @@
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
 <fullyQualifiedTypeName name="java.security.Key"/>
 <fullyQualifiedTypeName name="com.biz.bank.domain.BankAccVO"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="com.biz.bank.domain.BankInfo"/>
 <fullyQualifiedTypeName name="com.biz.bank.service.BankServiceImpV1"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.biz.bank.exec.BankEx_02"/>
 <fullyQualifiedTypeName name="com.biz.bank.util.BankInfo.REMARK"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -58,6 +50,14 @@
 <fullyQualifiedTypeName name="com.biz.domain.BlackJackVO"/>
 <fullyQualifiedTypeName name="com.biz.method.service.CalcService"/>
 <fullyQualifiedTypeName name="com.biz.method.service.MakeListService"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.biz.method.service.ViewListService"/>
+<fullyQualifiedTypeName name="com.biz.iolist.MakeProductServiceV1"/>
+<fullyQualifiedTypeName name="com.biz.iolist.service.MakeProductServiceV2"/>
+<fullyQualifiedTypeName name="com.biz.iolist.service.WriterProductSerivce"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.biz.iolist.service.IolistService"/>
 </qualifiedTypeNameHistroy>
