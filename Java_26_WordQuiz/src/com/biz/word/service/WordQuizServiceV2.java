@@ -107,9 +107,14 @@ public class WordQuizServiceV2 extends WordQuizServiceV1{
 	public void quizExec() {
 		
 		System.out.println("----------------------------");
-		System.out.print("단어 입력 힌트(H) >> ");
+		System.out.print("단어 입력, 힌트(H), 종료(-0) >> ");
 		Scanner scanner = new Scanner(System.in);
 		String strScan = scanner.nextLine();
+		
+		if(strScan.equals("-0")) {
+			nCount = -1;
+			return;
+		}
 		
 		if(strScan.equals("H")) {
 			System.out.println("----------------------------");
