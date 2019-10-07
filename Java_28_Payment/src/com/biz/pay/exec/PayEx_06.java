@@ -20,6 +20,7 @@ public class PayEx_06 {
 			pr.print(strRead);
 			List<String> readList = pr.getReadList();
 			
+			String payPath = "src/com/biz/pay/";
 			for(String ss : readList) {
 				String[] strA = ss.split(":");
 				
@@ -29,14 +30,14 @@ public class PayEx_06 {
 				pm.make(Integer.valueOf(strA[1]));
 				System.out.println("=======================================\n");
 				
-//				String fileName = String.format("/src/com/biz/pay/사원번호 : %s.txt", strA[0]);
-//				PrintWriter fileOut = new PrintWriter(fileName);
-//				fileOut.println("=======================================");
-//				fileOut.printf("사원번호 : %s\t 급여 : %s\n",strA[0], strA[1]);
-//				fileOut.println("---------------------------------------");
-//				fileOut.println(Integer.valueOf(strA[1]));
-//				fileOut.println("=======================================");
-//				fileOut.close();
+				
+				PrintWriter fileOut = new PrintWriter(payPath + strA[0]);
+				fileOut.println("=======================================");
+				fileOut.printf("사원번호 : %s\t 급여 : %s\n",strA[0], strA[1]);
+				fileOut.println("---------------------------------------");
+				fileOut.println(Integer.valueOf(strA[1]));
+				fileOut.println("=======================================");
+				fileOut.close();
 //				pm.make(Integer.valueOf(ss.substring(7)));
 			}
 			
