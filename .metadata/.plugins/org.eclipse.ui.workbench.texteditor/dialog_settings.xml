@@ -6,15 +6,31 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value=" - "/>
 		<list key="findhistory">
-			<item value="package com.biz.classes;"/>
+			<item value=" -  "/>
+			<item value=","/>
+			<item value="리더십"/>
+			<item value="아이만"/>
+			<item value="맥스웰"/>
+			<item value="우리가"/>
+			<item value="세계를"/>
+			<item value="마인드"/>
+			<item value="똑똑한"/>
+			<item value="울지마"/>
+			<item value="무엇을"/>
+			<item value="책을 읽는"/>
+			<item value="1만 시간"/>
+			<item value="명화가"/>
+			<item value="펭귄 블룸"/>
 		</list>
 		<list key="replacehistory">
+			<item value=" - "/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="824"/>
-		<item key="DIALOG_Y_ORIGIN" value="268"/>
+		<item key="DIALOG_X_ORIGIN" value="1523"/>
+		<item key="DIALOG_Y_ORIGIN" value="141"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="390"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
