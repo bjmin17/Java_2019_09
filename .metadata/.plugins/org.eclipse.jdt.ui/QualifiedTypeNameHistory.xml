@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="com.biz.domain.BlackJackVO"/>
-<fullyQualifiedTypeName name="com.biz.method.service.CalcService"/>
-<fullyQualifiedTypeName name="com.biz.method.service.MakeListService"/>
-<fullyQualifiedTypeName name="com.biz.method.service.ViewListService"/>
-<fullyQualifiedTypeName name="com.biz.iolist.MakeProductServiceV1"/>
-<fullyQualifiedTypeName name="com.biz.iolist.service.MakeProductServiceV2"/>
-<fullyQualifiedTypeName name="com.biz.iolist.service.WriterProductSerivce"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="com.biz.iolist.service.IolistService"/>
-<fullyQualifiedTypeName name="com.biz.word.service.WordQuizServiceV1"/>
-<fullyQualifiedTypeName name="com.biz.word.service.WordListMakeService"/>
-<fullyQualifiedTypeName name="com.biz.word.service.WordQuizServiceV2"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.biz.list.service.ListRecServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.list.service.ListRecServiceV2"/>
@@ -22,7 +8,6 @@
 <fullyQualifiedTypeName name="com.biz.pay.service.PayReadServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.pay.service.PaperMakeServiceV1"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="com.biz.jack.service.DeckServiceV1"/>
 <fullyQualifiedTypeName name="com.biz.jack.utils.BlackJackUtils"/>
 <fullyQualifiedTypeName name="com.biz.jack.service.PlayerServiceV1"/>
@@ -58,6 +43,21 @@
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="com.biz.gp.domain.StudentVO"/>
 <fullyQualifiedTypeName name="com.biz.gp.exec.ScoreEx_01"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.biz.gp.domain.ScoreVO.Builder"/>
+<fullyQualifiedTypeName name="com.biz.lombok.domain.StudentVO"/>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="lombok.ToString"/>
+<fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+<fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+<fullyQualifiedTypeName name="lombok.Builder"/>
+<fullyQualifiedTypeName name="lombok.Getter"/>
+<fullyQualifiedTypeName name="com.biz.lombok.service.StudentReadServiceV1"/>
+<fullyQualifiedTypeName name="com.biz.lombok.service.StudentViewServiceV1"/>
+<fullyQualifiedTypeName name="com.biz.lombok.service.StudentViewServiceABS"/>
+<fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.biz.service.BBsReadServiceImpV1"/>
+<fullyQualifiedTypeName name="com.biz.service.BBsViewService"/>
+<fullyQualifiedTypeName name="com.biz.service.BBsViewServiceImpV1"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
